@@ -1,0 +1,7 @@
+.headerItem {
+  text-decoration: none;
+  color: #1a202c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

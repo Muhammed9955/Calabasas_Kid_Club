@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import "./App.css";
+import Header from "./components/Header/Header.component";
+import Gif_Container from "./components/Gif_Container/Gif_Container.component";
+import Intro from "./components/Intro/Intro.component";
+import PraragraphContainer from "./components/PraragraphContainer/PraragraphContainer.component";
+import CKC from "./components/CKC/CKC.compnent";
+import RoadMap from "./components/RoadMap/RoadMap.component";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Gif_Container />
+      <div className="app_intro">
+        <Intro />
+      </div>
+      <div className="PraragraphContainer">
+        <PraragraphContainer
+          title="Price"
+          paragraph="Every Calabasas Kid costs 0.05 ETH and the max cap per mint is 20."
+        />
+        <PraragraphContainer
+          title="FAQs"
+          paragraph="WHO IS THE KID? 
+        THE KID is an alias used for the creator of Calabasas Kid Club. She
+        grew up in Los Angeles County, and later work in Calabasas as a
+        personal assistant to a well-known family in the entertainment
+        industry. This collection was originally inspired by her take on the
+        kids of Calabasas who tend to have all the high-end luxuries and
+        products everyone wishes they had.
+        WHAT CAN I EXPECT FROM CKC?"
+        />
+        <CKC />
+        <RoadMap />
+      </div>
     </div>
   );
 }
