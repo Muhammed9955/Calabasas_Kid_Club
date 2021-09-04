@@ -73,11 +73,13 @@ const Header: React.FC<Props> = () => {
           icon={<FaTwitter style={{ marginRight: "10px" }} />}
           herf="https://twitter.com/CalabasasKidNFT"
         />
-        <HeaderItem
-          text="Discord"
-          icon={<FaDiscord style={{ marginRight: "10px" }} />}
-          herf="https:discord.gg/zN3pN3KHzu"
-        />
+        <div style={{ marginTop: "1rem" }}>
+          <HeaderItem
+            text="Discord"
+            icon={<FaDiscord style={{ marginRight: "10px" }} />}
+            herf="https:discord.gg/zN3pN3KHzu"
+          />
+        </div>
       </div>
     </div>
   );
