@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 .footer_banner h1 p {
   text-align: center;
