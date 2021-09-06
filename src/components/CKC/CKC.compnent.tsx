@@ -15,8 +15,13 @@ const CKC: React.FC<Props> = ({}) => {
         margin: "auto",
       }}
     >
-      <h1>WHAT CAN I EXPECT FROM CKC?</h1>
-      <p>Things THE KID would love to do with the community in the future:</p>
+      {/* <h1>WHAT CAN I EXPECT FROM CKC?</h1> */}
+      <p>
+        <span style={{ fontWeight: "bold", fontSize: "1.2rem" }}>
+          WHAT CAN I EXPECT FROM CKC?
+        </span>{" "}
+        Things THE KID would love to do with the community in the future:
+      </p>
       <p className="ckc_item">Sandbox games</p>
       <p className="ckc_item">Comic book</p>
       <p className="ckc_item">Animated series</p>

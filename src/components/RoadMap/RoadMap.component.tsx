@@ -10,8 +10,8 @@ const RoadMap: React.FC<Props> = ({}) => {
         <Grid item xs={12} sm={6}>
           {" "}
           <p className="roadMapItem">
-            <span style={{ fontWeight: "bold" }}>1-</span>Airdrop for all CKC
-            Collectors
+            <span style={{ fontWeight: "bold" }}>1-</span>Airdrop for all OG CKC
+            HOLDERS
           </p>
         </Grid>
         <Grid item xs={12} sm={6}>

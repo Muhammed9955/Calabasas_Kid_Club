@@ -14,8 +14,13 @@ const PraragraphContainer: React.FC<Props> = ({ title, paragraph }) => {
         margin: "auto",
       }}
     >
-      <h1>{title} </h1>
-      <p>{paragraph} </p>
+      <h1> </h1>
+      <p>
+        <span
+          style={{ fontWeight: "bold", fontSize: "1.2rem" }}
+        >{`${title}`}</span>{" "}
+        {paragraph}{" "}
+      </p>
     </div>
   );
 };

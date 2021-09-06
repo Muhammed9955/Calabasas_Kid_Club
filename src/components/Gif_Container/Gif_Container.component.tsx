@@ -1,5 +1,6 @@
 import { Button } from "@material-ui/core";
 import gif from "../../imgs/mainGif.gif";
+import headerImg from "../../imgs/headerImg.png";
 import styles from "../../util/styles";
 interface Props {}
 
@@ -11,10 +12,21 @@ const Gif_Container: React.FC<Props> = ({}) => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        height: "90vh",
-        marginTop: "2rem",
+        height: "auto",
+        margin: "3rem",
       }}
     >
+      <img
+        src={headerImg}
+        alt=""
+        style={{
+          width: "100%",
+          height: "auto",
+          margin: "2rem",
+          objectFit: "contain",
+          // minHeight: "300px",
+        }}
+      />
       <img
         src={gif}
         alt=""
