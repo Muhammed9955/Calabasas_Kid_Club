@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./header.style.css";
 import { Button } from "@material-ui/core";
-import logo from "../../imgs/logo.png";
+import logo from "../../imgs/newLogo.jpg";
 import HeaderItem from "../HeaderItem/HeaderItem.component";
 import { FaTwitter } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
@@ -22,11 +22,13 @@ const Header: React.FC<Props> = () => {
           <img src={logo} alt="logo" className="header_logo" />
 
           <div className="header_Items">
-            <HeaderItem
-              text="Twitter"
-              icon={<FaTwitter style={{ marginRight: "10px" }} />}
-              herf="https://twitter.com/CalabasasKidNFT"
-            />
+            <div style={{ marginRight: "1rem" }}>
+              <HeaderItem
+                text="Twitter"
+                icon={<FaTwitter style={{ marginRight: "10px" }} />}
+                herf="https://twitter.com/CalabasasKidNFT"
+              />
+            </div>
             <div style={{ marginLeft: "1.5rem" }}>
               <HeaderItem
                 text="Discord"

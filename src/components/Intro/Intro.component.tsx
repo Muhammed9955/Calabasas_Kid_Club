@@ -1,6 +1,6 @@
 // import "./headerItem.style.css";
 
-import DopeShiba from "../../imgs/DopeShiba.png";
+import CLB from "../../imgs/CLB.jpg";
 import { Grid } from "@material-ui/core";
 import styles from "../../util/styles";
 import "./intro.style.css";
@@ -11,7 +11,7 @@ const Intro: React.FC<Props> = ({}) => {
     <div style={{ background: `${styles.colors.bg}` }}>
       <Grid container spacing={3} alignItems="flex-start">
         <Grid item sm={6} xs={12}>
-          <img src={DopeShiba} alt="DopeShiba" className="Intro_img" />
+          <img src={CLB} alt="DopeShiba" className="Intro_img" />
         </Grid>
         <Grid item sm={6} xs={12}>
           <h1>WHAT IS CALABASAS KID CLUB?</h1>

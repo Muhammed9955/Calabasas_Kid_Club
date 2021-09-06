@@ -23,6 +23,14 @@ p {
   margin: auto;
 }
 
+.app_banner {
+  /* height: 40vh; */
+  object-fit: contain;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
 @media only screen and (max-width: 1024px) {
   .PraragraphContainer {
     width: 90vw;

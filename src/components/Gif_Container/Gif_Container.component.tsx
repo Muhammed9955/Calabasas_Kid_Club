@@ -1,5 +1,5 @@
 import { Button } from "@material-ui/core";
-import gif from "../../imgs/gif.gif";
+import gif from "../../imgs/mainGif.gif";
 import styles from "../../util/styles";
 interface Props {}
 
@@ -12,6 +12,7 @@ const Gif_Container: React.FC<Props> = ({}) => {
         alignItems: "center",
         justifyContent: "center",
         height: "90vh",
+        marginTop: "2rem",
       }}
     >
       <img
@@ -31,7 +32,7 @@ const Gif_Container: React.FC<Props> = ({}) => {
           marginTop: "10px",
         }}
       >
-        Connect Wallet to adopt
+        Connect Wallet
       </Button>
     </div>
   );
